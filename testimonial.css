@@ -1,0 +1,61 @@
+@font-face{
+    font-family: myFirstFont;
+    src: url(fonts/Bsc/BarlowSemiCondensed-Light.ttf);
+    }
+    
+    
+body{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: myFirstfont;
+    font-weight: 600;
+    background-color:aliceblue;
+    width: 600px;
+}
+h2{
+    width: 210px;
+    /* padding-left: 60px; */
+    text-align: left;
+    font-size: 19px;
+    color: white;    
+}
+.profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+span{
+    opacity: 50%;
+}
+p{
+    opacity: 70%;
+    font-size: 15px;
+}
+.box{
+    border-radius: 10px;
+    margin: 35px;
+    padding: 25px 40px;
+    color: white;
+    
+}
+img{
+    border-radius: 50px;
+    width: 45px;
+    /* float: left; */
+}
+.purple{
+    background-color: hsl(263, 55%, 52%);
+    
+}
+.ash{
+    background-color: hsl(217, 19%, 35%);
+}
+.dash{
+    background-color: hsl(219, 29%, 14%)
+}
+.white, .white h2{
+    color: hsl(217, 19%, 35%);
+    
+    background-color: white;
+}
+
