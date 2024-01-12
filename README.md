@@ -6,6 +6,9 @@
 - Explore grid and flex layout examples.
 - Observe the utilization of body width for layout control.
 
+**NOTE:**
+- I used a fixed max-width for my body in order to fit the design well like the one in the image.
+
 **Examples:**
 ```css
 .container {
