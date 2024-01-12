@@ -15,6 +15,7 @@ body{
     margin: 0 auto ;
     max-width: 750px;
 }
+/*------------------ BEAGNING OF HEADER STYLING -------------------*/
 .img-sqr{
     width: 100px;
     float: left;
@@ -51,6 +52,7 @@ header{
     padding: 30px;
     padding-bottom: 50px;
 }
+/*------------------ BUILD A COMMUNITY -------------------*/
 .first{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -78,6 +80,8 @@ header{
    padding: 12px 45px;
    text-align: center;
 }
+
+/*------------------ GROW TOGETHER  FLOWING CONVERSATION  YOUR USER -------------------*/
 .second{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -99,6 +103,7 @@ header{
 .second img{
     width: 100%;
 }
+/*------------------ READY TO BUILD COMMUNITY -------------------*/
 .community{
     text-align: center;
     padding: 25px 50px;
@@ -114,6 +119,7 @@ header{
 .community a{
     margin: 20px auto;
 }
+/*------------------ FOOTER -------------------*/
 footer{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;

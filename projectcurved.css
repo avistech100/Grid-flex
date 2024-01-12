@@ -22,6 +22,7 @@ body{
     margin: 0 auto;
     max-width: 800px;
 }
+/*------------------ BEAGNING OF HEADER STYLING -------------------*/
 header{
     padding: 30px 20px;
     display: grid;
@@ -51,6 +52,7 @@ header{
     align-self: end;
     
 }
+/*------------------ BUILD THE COUMMUNITY -------------------*/
 .first-sec{
     padding: 55px 70px;
 }
@@ -113,7 +115,7 @@ margin-bottom: 0; */
     font-family: poppins-lite;
     text-align: center;
 }
-/* ndfgggggggggggggg*/
+/*------------------ GROW TOGETHER,  FLOWING CONVERSATION, YOUR USER -------------------*/
 .second{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -145,7 +147,7 @@ margin-bottom: 0; */
     width: 100%;
 }
 
-/* dddddddddddddd */
+/*------------------ READY TO BUILD -------------------*/
 
 .ready{
     padding-top: 65px;
@@ -160,6 +162,7 @@ margin-bottom: 0; */
     margin-bottom: -10px;
     width: 100%;
 }
+/*------------------ FOOTER -------------------*/
 footer{
     margin-top: 0;
     padding: 35px 50px;
@@ -172,6 +175,8 @@ footer{
 }
 li{
     list-style-type: none;
+    display: inline-block;
+    padding: 2px 2px;
 }
 .h-fut{
 font-size: 23px;
@@ -204,12 +209,10 @@ border: none;
 border-radius: 2px;
 width: 70px;
 }
-li a{
-    display: inline-block;
-}
+
 .ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: inline-block;
+    
 }
 .end{
     display: grid;
