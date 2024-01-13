@@ -5,47 +5,70 @@
     
     
 body{
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     font-family: myFirstfont;
     font-weight: 600;
     background-color:aliceblue;
-    width: 600px;
+    max-width: 1000px;
+    margin: 100px auto;
 }
 h2{
-    width: 210px;
+    /* width: 210px; */
     /* padding-left: 60px; */
     text-align: left;
-    font-size: 19px;
-    color: white;    
+    font-size: 12px;
+    color: white;  
+    grid-column: span 2;  
+}
+h1{
+    font-size: 15px;
 }
 .profile{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
 }
 span{
     opacity: 50%;
 }
 p{
     opacity: 70%;
-    font-size: 15px;
+    font-size: 10px;
 }
 .box{
     border-radius: 10px;
-    margin: 35px;
-    padding: 25px 40px;
+    padding: 20px 27px;
     color: white;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     
 }
 img{
     border-radius: 50px;
-    width: 45px;
+    width: 32px;
+    align-self: center;
+    margin: auto;
     /* float: left; */
 }
+main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 23px;
+    width: 100%;
+}
+main > :nth-child(5) .profile, main > :nth-child(1) .profile{
+    grid-template-columns: repeat(8, 1fr);
+}
+main > :nth-child(5) .profile img, main > :nth-child(1) .profile img{
+    align-self: start;
+}
+
 .purple{
+    background-image: url(images/tts1.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
     background-color: hsl(263, 55%, 52%);
-    
+    grid-column: span 2;
 }
 .ash{
     background-color: hsl(217, 19%, 35%);
@@ -53,9 +76,23 @@ img{
 .dash{
     background-color: hsl(219, 29%, 14%)
 }
+main > :nth-child(3){
+    grid-row: span 2;
+}
+main > :nth-child(5){
+    grid-column: span 2;
+}
+
 .white, .white h2{
     color: hsl(217, 19%, 35%);
     
     background-color: white;
 }
+main > :nth-child(2) .profile, main > :nth-child(3) .profile, main > :nth-child(4) .profile{
+    gap: 10px;
+}
+main > :nth-child(2) .profile h2, main > :nth-child(3) .profile h2, main > :nth-child(4) .profile h2{
+    grid-column: span 3;
+}
+
 
